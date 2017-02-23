@@ -1,5 +1,5 @@
 #!/bin/bash
-lxc inint ubuntu:16.04 tamas
+lxc init ubuntu:16.04 tamas
 lxc start tamas
 sleep 15
 lxc list
