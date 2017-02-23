@@ -5,3 +5,4 @@ sleep 15
 lxc list
 lxc exec tamas -- apt update --yes
 lxc exec tamas -- apt upgrade --yes
+lxc exec tamas -- apt install mc --yes
